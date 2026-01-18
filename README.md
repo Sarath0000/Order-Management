@@ -58,9 +58,7 @@ Register User  Method: POST,  Endpoint : /api/accounts/register/
             "message": "Customer registered successfully"
         }
 
-Login (JWT)
-    Method: POST
-    Endpoint : /api/login/
+Login (JWT)  Method: POST,  Endpoint : /api/login/
     Sample Request
         {
             "username": "user1",
@@ -71,10 +69,7 @@ Login (JWT)
             "refresh": "eyJhbGciOiJIUzI1NiIs...",
             "access": "eyJhbGciOiJIUzI1NiIs..."
         }
-Create Product (Admin Only)
-    Method: POST
-    Endpoint : /api/products/create/
-    Authorization: Bearer <ACCESS_TOKEN>
+Create Product (Admin Only)   Method: POST,  Endpoint : /api/products/create/,  Authorization: Bearer <ACCESS_TOKEN>
     Sample Request
         {
             "name": "Bat",
@@ -88,10 +83,7 @@ Create Product (Admin Only)
             "price": "1200.00",
             "quantity": 10
         }
-List Products (Admin & Customer)
-    Method: GET
-    Endpoint : /api/products/
-    Authorization: Bearer <ACCESS_TOKEN>
+List Products (Admin & Customer)  Method: GET,  Endpoint : /api/products/,  Authorization: Bearer <ACCESS_TOKEN>
     Sample Response
     [
         {
@@ -101,10 +93,7 @@ List Products (Admin & Customer)
             "quantity": 10
         }
     ]
-Update Product (Admin Only)
-    Method: PUT
-    Endpoint : /api/products/<id>/
-    Authorization: Bearer <ACCESS_TOKEN>
+Update Product (Admin Only)  Method: PUT,  Endpoint : /api/products/<id>/,  Authorization: Bearer <ACCESS_TOKEN>
     Sample Request
         {
             "quantity": 15
@@ -116,10 +105,7 @@ Update Product (Admin Only)
             "price": "1200.00",
             "quantity": 15
         }
-Delete Product (Admin Only)
-    Method: DELETE
-    Endpoint : /api/products/<id>/delete/
-    Authorization: Bearer <ACCESS_TOKEN>
+Delete Product (Admin Only)  Method: DELETE,  Endpoint : /api/products/<id>/delete/,  Authorization: Bearer <ACCESS_TOKEN>
     Sample Response
         {
             "message": "Product deleted"
