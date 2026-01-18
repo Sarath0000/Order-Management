@@ -125,21 +125,13 @@ Delete Product (Admin Only)
 
 Roles & Permissions
 
-Role
+Role-Admin
 
-Admin
+Permissions-Create, update, delete, view products
 
-Permissions
+Role-Customer
 
-Create, update, delete, view products
-
-Role
-
-Customer
-
-Permissions
-
-Create, update, delete, view products
+Permissions-view products
 
 
 
