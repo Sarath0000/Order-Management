@@ -123,8 +123,8 @@ Delete Product (Admin Only)
             "message": "Product deleted"
         }
 
-
 Roles & Permissions
+
 Role
     Admin
 Permissions
