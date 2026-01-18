@@ -33,9 +33,13 @@ Setup Instructions
 
 
 Authentication Flow (JWT)
+
 User registers using API
+
 User logs in using API
+
 Server returns JWT access token
+
 Token is sent in Authorization header for protected APIs
 
 API Usage Guide (Postman)
