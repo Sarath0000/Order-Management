@@ -47,9 +47,7 @@ API Usage Guide (Postman)
 
 API List
 
-Register User
-    Method: POST
-    Endpoint : /api/accounts/register/
+Register User  Method: POST,  Endpoint : /api/accounts/register/
     Sample Request
         {
             "username": "user1",
